@@ -5,12 +5,6 @@ from telebot import types
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 bot = telebot.TeleBot('key')
-=======
-bot = telebot.TeleBot('7780379541:AAHjpvmXg4-VDoENfEk6jvolXSaw5tM58Ao')
->>>>>>> Stashed changes
-=======
-bot = telebot.TeleBot('7780379541:AAHjpvmXg4-VDoENfEk6jvolXSaw5tM58Ao')
->>>>>>> Stashed changes
 
 @bot.message_handler(commands=['start'])
 def start(message):
